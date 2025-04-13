@@ -1,0 +1,8 @@
+:root {
+  --chat-primary-color: #b9975b;
+  --chat-background-color: #1a1a1a;
+  --chat-font-color: #ffffff;
+  --chat-bubble-user: #2a2a2a;
+  --chat-bubble-bot: #b9975b;
+  --chat-bubble-bot-text: #1a1a1a;
+}
