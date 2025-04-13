@@ -1,11 +1,10 @@
 {
-  "title": "Highend Bremen",
-  "intro": "Hallo, ich bin der digitale Assistent von Highend Bremen. Wie kann ich helfen?",
+  "title": "SMOBIT Chat",
+  "intro": "👋 Hallo, ich bin der digitale Assistent von SMOBIT. Wie kann ich helfen?",
   "quickReplies": [
-    "Ich möchte gerne einen Termin vereinbaren",
+    "Ich habe eine Frage zu einer Reparatur",
     "Wie sind eure Öffnungszeiten?",
-    "Ich benötige eine Beratung",
-    "Was macht Highend Bremen so besonders?"
+    "Wann ist der nächste Reparaturtermin?"
   ],
-  "webhook": "https://n8n-mq6c.onrender.com/webhook/a96d4f46-53c6-472f-b252-7abd42cd845b/chat"
+  "webhook": "https://n8n-mq6c.onrender.com/webhook/39e336ff-c51e-4087-a586-fb88d1295696/chat"
 }
