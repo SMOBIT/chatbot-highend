@@ -1,0 +1,11 @@
+{
+  "title": "Highend Bremen",
+  "intro": "Hallo, ich bin der digitale Assistent von Highend Bremen. Wie kann ich helfen?",
+  "quickReplies": [
+    "Ich möchte gerne einen Termin vereinbaren",
+    "Wie sind eure Öffnungszeiten?",
+    "Ich benötige eine Beratung",
+    "Was macht Highend Bremen so besonders?"
+  ],
+  "webhook": "https://n8n-mq6c.onrender.com/webhook/a96d4f46-53c6-472f-b252-7abd42cd845b/chat"
+}
