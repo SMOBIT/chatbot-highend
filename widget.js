@@ -5,8 +5,8 @@ window.addEventListener("load", async () => {
     return;
   }
 
-  const configUrl = `https://smobit.github.io/chatbot-highend/config/${client}.json`;
-  const styleUrl = `https://smobit.github.io/chatbot-highend/styles/${client}.css`;
+  const configUrl = `./config/${client}.json`;
+  const styleUrl = `./styles/${client}.css`;
 
   const style = document.createElement("link");
   style.rel = "stylesheet";
@@ -17,13 +17,6 @@ window.addEventListener("load", async () => {
   welcomeBubble.id = "chat-welcome-bubble";
   welcomeBubble.textContent = "Hallo, vielleicht kann ich helfen?";
   document.body.appendChild(welcomeBubble);
-
-  welcomeBubble.addEventListener("click", () => {
-    chatContainer.style.display = "flex";
-    chatButton.style.display = "none";
-    welcomeBubble.style.display = "none";
-    chatAlreadyOpened = true;
-  });
 
   let chatAlreadyOpened = false;
 
@@ -49,6 +42,13 @@ window.addEventListener("load", async () => {
     welcomeBubble.style.display = "none";
     chatAlreadyOpened = true;
   };
+
+  welcomeBubble.addEventListener("click", () => {
+    document.getElementById("chat-box").style.display = "flex";
+    chatButton.style.display = "none";
+    welcomeBubble.style.display = "none";
+    chatAlreadyOpened = true;
+  });
 
   document.getElementById("chat-close").onclick = () => {
     document.getElementById("chat-box").style.display = "none";
