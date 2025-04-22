@@ -25,7 +25,7 @@ window.addEventListener("load", async () => {
   chatContainer.innerHTML = `
     <button id="chat-button">💬</button>
     <div id="chat-box" style="display:none">
-      <div id="chat-header">🤖 <span id="chat-title">Chat</span> <span id="chat-close">✖</span></div>
+      <div id="chat-header"> <span id="chat-title">Chat</span> <span id="chat-close">✖</span></div>
       <div id="chat-body"><div class="chat-msg bot">Lade...</div></div>
       <div id="chat-footer">
         <input type="text" id="chat-input" placeholder="Nachricht eingeben..." />
